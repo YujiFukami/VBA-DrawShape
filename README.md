@@ -13,7 +13,7 @@
 シェイプ作図関係
 
 # 使い方
-実行サンプル「Sample DrawShape.xlsm」の使い方。
+実行サンプル「Sample_DrawShape.xlsm」の使い方。
 
 ①XY座標を入力する
 
@@ -24,7 +24,7 @@
 ![②作図](https://user-images.githubusercontent.com/73621859/133218872-5b9adb67-db50-4b8f-a2af-250ed0a7b675.jpg)
 
 ## 設定
-実行サンプル「Sample DrawShape.xlsm」の中の設定は以下の通り。
+実行サンプル「Sample_DrawShape.xlsm」の中の設定は以下の通り。
 
 ### 設定1（使用モジュール）
 
