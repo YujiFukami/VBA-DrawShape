@@ -17,7 +17,7 @@
 
 ①XY座標を入力する
 
-![①入力](https://user-images.githubusercontent.com/73621859/133218848-26eba255-ec6c-4a20-862a-3735c4793a69.jpg)
+![①入力](https://github.com/YujiFukami/VBA-DrawShape/commit/8ca647994d25a82dff918ac330cb11ee4c8391f4)
 
 ②それぞれの図形のボタンを押すと曲線が作図される
 
