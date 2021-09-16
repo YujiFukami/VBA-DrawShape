@@ -19,7 +19,7 @@
 
 ![①入力](https://user-images.githubusercontent.com/73621859/133218848-26eba255-ec6c-4a20-862a-3735c4793a69.jpg)
 
-②ボタン「作図テスト」を押すと曲線が作図される
+②それぞれの図形のボタンを押すと曲線が作図される
 
 ![②作図](https://github.com/YujiFukami/VBA-DrawShape/blob/8ca647994d25a82dff918ac330cb11ee4c8391f4/ReadMe%E7%94%A8/%E2%91%A1%E5%9B%B3.jpg)
 
