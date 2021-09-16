@@ -21,7 +21,7 @@
 
 ②ボタン「作図テスト」を押すと曲線が作図される
 
-![②作図](https://user-images.githubusercontent.com/73621859/133218872-5b9adb67-db50-4b8f-a2af-250ed0a7b675.jpg)
+![②作図](https://github.com/YujiFukami/VBA-DrawShape/blob/8ca647994d25a82dff918ac330cb11ee4c8391f4/ReadMe%E7%94%A8/%E2%91%A1%E5%9B%B3.jpg)
 
 ## 設定
 実行サンプル「Sample_DrawShape.xlsm」の中の設定は以下の通り。
