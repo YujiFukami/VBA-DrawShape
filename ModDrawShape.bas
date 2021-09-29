@@ -52,4 +52,24 @@ Sub AddPointToCurve(InputShape As Shape, AddX#, AddY#, Optional DeleteFirstPoint
 End Sub
 
 
+Function DrawPolyLine(XYList, TargetSheet As Worksheet) As Shape
+'XY座標からポリラインを描く
+'シェイプをオブジェクト変数として返す
+'20210921
 
+'引数
+'XYList         ・・・XY座標が入った二次元配列 X方向→右方向 Y方向→下方向
+'TargetSheet    ・・・作図対象のシート
+
+    Dim I%, Count%
+    Count = UBound(XYList, 1)
+    
+    With TargetSheet.Shapes.BuildFreeform(msoEditingCorner, XYList(1, 1), XYList(1, 2))
+        
+        For I = 2 To Count
+            .AddNodes msoSegmentLine, msoEditingAuto, XYList(I, 1), XYList(I, 2)
+        Next I
+        Set DrawPolyLine = .ConvertToShape
+    End With
+    
+End Function
