@@ -1,8 +1,12 @@
 Attribute VB_Name = "ModDrawShape"
 Option Explicit
 
-'シェイプ作図関連モジュール
-'20210914作成
+'DrawCurve           ・・・元場所：FukamiAddins3.ModDrawShape
+'DrawCurveAddPoint   ・・・元場所：FukamiAddins3.ModDrawShape
+'DrawPolyLine        ・・・元場所：FukamiAddins3.ModDrawShape
+'DrawPolyLineAddPoint・・・元場所：FukamiAddins3.ModDrawShape
+
+
 
 Function DrawCurve(XYList, TargetSheet As Worksheet) As Shape
 'XY座標から曲線を描く
@@ -52,7 +56,6 @@ Sub DrawCurveAddPoint(InputShape As Shape, AddX As Double, AddY As Double, Optio
     
 End Sub
 
-
 Function DrawPolyLine(XYList, TargetSheet As Worksheet) As Shape
 'XY座標からポリラインを描く
 'シェイプをオブジェクト変数として返す
@@ -98,4 +101,5 @@ Sub DrawPolyLineAddPoint(InputShape As Shape, AddX As Double, AddY As Double, Op
     End If
     
 End Sub
+
 
